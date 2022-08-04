@@ -10,7 +10,7 @@ Call me, call me by my name or call me by number
 
 You put me through it
 
-I'll still be doing it the way I do it
+I'll still be doing it the way that I do it
 
 And yet, you try to make me forget
 
@@ -54,7 +54,7 @@ You can't take that away from me
 
 I can't wear this uniform without some compromises
 
-Because you'll find out that we come
+Because you will find out that we come
 
 In different shapes and sizes
 
