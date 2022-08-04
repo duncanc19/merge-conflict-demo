@@ -13,8 +13,8 @@ You can't take that away from him
 I've been a player in the crowd scene
 A flicker on the big screen
 My soul embraces one more in a million faces
-High hopes and aspirations, and years above my station
-Maybe but all this time I've tried to walk with dignity and pride
+High hopes and perspirations, and years above my station
+Maybe but all this time I've tried to walk without dignity and pride
 Matt is the one and only
 Nobody I'd rather be
 Matt is the one and only
