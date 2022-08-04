@@ -7,7 +7,6 @@ I'll still be doing it the way I do it
 And yet, you try to make me forget
 Who I really am, don't tell me I know best
 I'm not the same as all the rest
-Matt is the one and only
 Nobody I'd rather be
 Matt is the one and only
 You can't take that away from him
@@ -23,16 +22,9 @@ You can't take that away from him
 I can't wear this uniform without some compromises
 But I can wear a bib (unlike Mario)
 Because you'll find out that we come
-In different shapes and sizes
-No one can be myself like I can
-For this job I'm the best man
-And while this may be true
-You are the one and only you
-Matt is the one and only
+
+I am the one and only
 Nobody I'd rather be
-Matt is the one and only
-You can't take that away from him
-Matt is the one and only
-Nobody I'd rather be
-Matt is the one and only
-You can't take that away from him
+I am the one and only
+You can't take that away from us
+>>>>>>> main
