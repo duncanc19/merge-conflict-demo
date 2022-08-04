@@ -1,4 +1,11 @@
 # merge-conflict-demo
+The One and Only
+
+From the film Buddy. Roger Daltrey plays Ches' Dad.
+
+
+I am the one and only, oh yeah
+
 
 Matt is the one and only, oh yeah
 Call me, call me by my name or call me by number
@@ -7,23 +14,37 @@ I'll still be doing it the way I do it
 And yet, you try to make me forget
 Who I really am, don't tell me I know best
 I'm not the same as all the rest
-Nobody I'd rather be
-Matt is the one and only
-You can't take that away from him
-I've been a player in the crowd scene
-A flicker on the big screen
-My soul embraces one more in a million faces
-High hopes and perspirations, and years above my station
-Maybe but all this time I've tried to walk without dignity and pride
-Matt is the one and only
-Nobody I'd rather be
-Matt is the one and only
-You can't take that away from him
-I can't wear this uniform without some compromises
-But I can wear a bib (unlike Mario)
-Because you'll find out that we come
 
 I am the one and only
 Nobody I'd rather be
 I am the one and only
-You can't take that away from us
+You can't take that away from me
+
+I've been a player in the crowd scene
+A flicker on the big screen
+My soul embraces one more in a million faces
+High hopes and aspirations, and years above my station
+Maybe but all this time I've tried to dance with dignity and pride
+
+I am the one and only
+Nobody I'd rather be
+I am the one and only
+You can't take that away from me
+
+I can't wear this uniform without some compromises
+Because you'll find out that we come
+In different shapes and sizes
+No one can be myself like I can
+For this job I'm the second best man
+And while this may be true
+You are the one and only you
+
+I am the one and only
+Nobody I'd rather be
+I am the one and only
+You can't take that away from me
+
+I am the one and only
+Nobody I'd rather be
+I am the one and only
+You can't take that away from me
