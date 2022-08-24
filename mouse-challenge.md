@@ -1,0 +1,5 @@
+- Someone forgot to print the title as a string
+- Verse 1 is being repeated, no-one needs to hear those lyrics twice so get rid of the duplicate
+- The first time the chorus is meant to be sung is commented out. Uncomment this code, without using the Delete or Backspace buttons
+- Verse 3 is being sang before verse 2, put them in the correct order
+- Run the file and make sure the correct lyrics are printed

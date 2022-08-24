@@ -1,0 +1,11 @@
+- Ctrl + P : Open file locator
+- Ctrl + Tab : Switches between last opened file
+- Ctrl + Tab (Holding Ctrl) : Scroll through last opened files
+- Shift + Delete: removes the entire line, no need to highlight everything
+- Ctrl + C : Copies highlighted text / the entire line if nothing highlighted
+- Alt + Up/Down Arrow: Moves the line up / down
+- Ctrl + Right/Left Arrow: Moves the cursor across words. 
+- Ctrl + Shift + Right/Left Arrow: Moves the cursor across words and highlights words
+- Ctrl + Shift + :` Opens a new terminal
+- Ctrl + ‘ : Moves focus to the open terminal
+- Ctrl + / : Comment / uncomment all highlighted code
