@@ -6,6 +6,6 @@
 - Alt + Up/Down Arrow: Moves the line up / down
 - Ctrl + Right/Left Arrow: Moves the cursor across words. 
 - Ctrl + Shift + Right/Left Arrow: Moves the cursor across words and highlights words
-- Ctrl + Shift + :` Opens a new terminal
+- Ctrl + Shift + ` : Opens a new terminal
 - Ctrl + ‘ : Moves focus to the open terminal
 - Ctrl + / : Comment / uncomment all highlighted code

@@ -45,6 +45,7 @@ def chorus():
     """)
 
 if __name__ == "__main__":
+    title()
     verse1()
     verse1()
     # chorus()
