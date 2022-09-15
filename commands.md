@@ -10,3 +10,4 @@
 - Ctrl + ‘ : Moves focus to the open terminal
 - Ctrl + / : Comment / uncomment all highlighted code
 - Ctrl + Z : Undo last change (keep pressing Z whilst holding Ctrl to undo multiple changes)
+- Ctrl + K, Ctrl + Shift + C: Copy relative path of opened file
