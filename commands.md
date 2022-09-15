@@ -1,6 +1,7 @@
 - Ctrl + P : Open file locator
 - Ctrl + Tab : Switches between last opened file
 - Ctrl + Tab (Holding Ctrl) : Scroll through last opened files
+- PgUp / PgDn : Quickly scroll though a file
 - Shift + Delete: removes the entire line, no need to highlight everything
 - Ctrl + C : Copies highlighted text / the entire line if nothing highlighted
 - Alt + Up/Down Arrow: Moves the line up / down
