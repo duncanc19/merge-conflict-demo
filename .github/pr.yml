@@ -1,11 +1,11 @@
 name: "build-test"
-on: # rebuild any PRs and main branch changes
+on:
   pull_request:
-  issues: 
-    types: [opened]
+    branches:
+      - main
 
 jobs:  
-  test-chuch: # make sure the action works on a clean machine without building    
+  test-chuck: # make sure the action works on a clean machine without building    
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.0.0
