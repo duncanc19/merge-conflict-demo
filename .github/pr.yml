@@ -1,8 +1,6 @@
 name: "build-test"
 on:
   pull_request:
-    branches:
-      - main
 
 jobs:  
   test-chuck: # make sure the action works on a clean machine without building    
