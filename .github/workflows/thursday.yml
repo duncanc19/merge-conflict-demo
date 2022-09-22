@@ -23,4 +23,19 @@ jobs:
           comment_type: 'chuck'
       - name: Print comment URL
         run: echo "Comment URL- ${{ steps.prComment.outputs.comment-url }}"
+  Run-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          auto-update-conda: true
+          activate-environment: thursday_actions
+          environment-file: environment.yml
+      - name: Execute tests
+        run: python -u -m pytest --headless tests 
+
       

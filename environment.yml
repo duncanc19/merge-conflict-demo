@@ -1,0 +1,9 @@
+name: thursday_actions
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9
+  # latest version of plotly can be found at https://github.com/plotly/plotly.py/releases .
+  # Version is hardcoded to ensure uniformity no matter the platform.
+  - pytest=6.2
