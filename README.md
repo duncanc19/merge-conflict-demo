@@ -1,6 +1,7 @@
 This repo will be used for demoing Thursday learning sessions
 
 Create a new github workflow that meets the below requirements. A good starting point is looking at the github quickstart page https://docs.github.com/en/actions/quickstart, and opening our dashboards repository to see how they have been implemented there.
+- Create your own branch and push this to github **This step is important as you can only create 1 PR for a branch**
 - It must run when a pull request is created / updated
 - It must contain a job that prints the lyrics using the lyrics.py file
     - Hint - https://github.com/actions/setup-python
