@@ -11,4 +11,16 @@ jobs:
         uses: actions/checkout@v3
       - run: python lyrics.py
       - run: echo "Printing lyrics!"
+  Add comment: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add funny comment
+      - uses: Marta83/funny-comment-action@v2.1
+      - id: FunnyComment
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIPHY_TOKEN: ${{ secrets.GIPHY_TOKEN }}
+          comment_type: 'chuck'
+      - name: Print comment URL
+        run: echo "Comment URL- ${{ steps.prComment.outputs.comment-url }}"
       
