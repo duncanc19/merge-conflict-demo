@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v3
       - run: python lyrics.py
       - run: echo "Printing lyrics!"
-  Add comment: 
+  Add-comment: 
     runs-on: ubuntu-latest
     steps:
       - name: Add funny comment
