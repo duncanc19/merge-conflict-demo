@@ -16,3 +16,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: python lyrics.py
+      - run: echo "Violence is my last option - Chuck Norris."
