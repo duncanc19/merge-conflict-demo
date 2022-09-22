@@ -1,50 +1,17 @@
-# merge-conflict-demo
-The One and Only
+This repo will be used for demoing Thursday learning sessions
 
-From the film Buddy. Roger Daltrey plays Ches' Dad.
+Create a new github workflow that meets the below requirements. A good starting point is looking at the github quickstart page https://docs.github.com/en/actions/quickstart, and opening our dashboards repository to see how they have been implemented there.
+- Create your own branch and push this to github **This step is important as you can only create 1 PR for a branch**
+- It must run when a pull request is created / updated
+- It must contain a job that prints the lyrics using the lyrics.py file
+    - Hint - https://github.com/actions/setup-python
+- It must contain a job that adds a random chuck norris quote as a comment to pull requests
+    - Hint -https://github.com/Marta83/funny-comment-action
 
-
-I am the one and only, oh yeah
-
-
-Matt is the one and only, oh yeah
-Call me, call me by my name or call me by number
-You put me through it
-I'll still be doing it the way I do it
-And yet, you try to make me forget
-Who I really am, don't tell me I know best
-I'm not the same as all the rest
-
-I am the one and only
-Nobody I'd rather be
-I am the one and only
-You can't take that away from me
-
-I've been a player in the crowd scene
-A flicker on the big screen
-My soul embraces one more in a million faces
-High hopes and aspirations, and years above my station
-Maybe but all this time I've tried to dance with dignity and pride
-
-I am the one and only
-Nobody I'd rather be
-I am the one and only
-You can't take that away from me
-
-I can't wear this uniform without some compromises
-Because you'll find out that we come
-In different shapes and sizes
-No one can be myself like I can
-For this job I'm the second best man
-And while this may be true
-You are the one and only you
-
-I am the one and only
-Nobody I'd rather be
-I am the one and only
-You can't take that away from me
-
-I am the one and only
-Nobody I'd rather be
-I am the one and only
-You can't take that away from me
+Bonus:
+- Create a new unit test file, and add a test that will always fail
+- Add a new job to your workflow that runs this unit test
+    - Hint - You won't have pytest installed without a conda environment, but you can install pip packages inside a github action using a python command
+- Change the job that adds a chuck norris quote to only run when the unit test job succeeds
+    - Hint - https://docs.github.com/en/actions/using-workflows/about-workflows#creating-dependent-jobs
+- Fix the unit test, enjoy another chuck norris quote
