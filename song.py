@@ -1,41 +1,46 @@
 def sing_song():
-    return """There was an old lady who swallowed a fly.
-        I don't know why she swallowed a fly - perhaps she'll die!
+    animals = ["fly", "spider", "bird", "cat", "dog", "cow", "horse"]
+    first_line = "There was an old lady who swallowed a"
+    last_line = f"I don't know why she swallowed a {animals[0]} - perhaps she'll die!"
+    song = f"""{first_line} {animals[0]}.
+        {last_line}
 
-        There was an old lady who swallowed a spider;
+        {first_line} {animals[1]};
         That wriggled and wiggled and tickled inside her.
-        She swallowed the spider to catch the fly;
-        I don't know why she swallowed a fly - perhaps she'll die!
+        {_reason_for_swallowing_the_animal(1, animals)};
+        {last_line}
 
-        There was an old lady who swallowed a bird;
-        How absurd to swallow a bird.
-        She swallowed the bird to catch the spider,
-        She swallowed the spider to catch the fly;
-        I don't know why she swallowed a fly - perhaps she'll die!
+        {first_line} {animals[2]};
+        How absurd to swallow a {animals[2]}.
+        {_reason_for_swallowing_the_animal(2, animals)};
+        {last_line}
 
-        There was an old lady who swallowed a cat;
-        Fancy that to swallow a cat!
-        She swallowed the cat to catch the bird,
-        She swallowed the bird to catch the spider,
-        She swallowed the spider to catch the fly;
-        I don't know why she swallowed a fly - perhaps she'll die!
+        {first_line} {animals[3]};
+        Fancy that to swallow a {animals[3]}!
+        {_reason_for_swallowing_the_animal(3, animals)};
+        {last_line}
 
-        There was an old lady who swallowed a dog;
-        What a hog, to swallow a dog!
-        She swallowed the dog to catch the cat,
-        She swallowed the cat to catch the bird,
-        She swallowed the bird to catch the spider,
-        She swallowed the spider to catch the fly;
-        I don't know why she swallowed a fly - perhaps she'll die!
+        {first_line} {animals[4]};
+        What a hog, to swallow a {animals[4]}!
+        {_reason_for_swallowing_the_animal(4, animals)};
+        {last_line}
 
-        There was an old lady who swallowed a cow;
-        I don't know how she swallowed a cow!
-        She swallowed the cow to catch the dog,
-        She swallowed the dog to catch the cat,
-        She swallowed the cat to catch the bird,
-        She swallowed the bird to catch the spider,
-        She swallowed the spider to catch the fly;
-        I don't know why she swallowed a fly - perhaps she'll die!
+        {first_line} {animals[5]};
+        I don't know how she swallowed a {animals[5]}!
+        {_reason_for_swallowing_the_animal(5, animals)};
+        {last_line}
 
-        There was an old lady who swallowed a horse...
+        {first_line} {animals[6]}...
         ...She's dead, of course!"""
+    return song
+
+def _reasoning_for_swallowing_an_animal(index, animals):
+    return f"She swallowed the {animals[index]} to catch the {animals[index-1]}"
+
+def _reason_for_swallowing_the_animal(animal_number, animals):
+    reasons = ""
+    for index in range(animal_number,1,-1):
+        reasons += _reasoning_for_swallowing_an_animal(index, animals)+",\n        "
+        
+    reasons += _reasoning_for_swallowing_an_animal(1, animals)  
+    return reasons
